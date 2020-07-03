@@ -1,0 +1,355 @@
+li {
+  list-style: none;
+  float: right;
+  padding-top: 33px;
+  padding-bottom: 33px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.header {
+  background-color: #f7f2b4;
+  height: 90px;
+  animation-name: fadeIn;
+  color: #02ccba;
+}
+
+.fadeIn{
+  animation: fadeIn ease 1s;
+-webkit-animation: fadeIn ease 1s;
+-moz-animation: fadeIn ease 2s;
+-o-animation: fadeIn ease 1s;
+-ms-animation: fadeIn ease 2s;
+}
+
+.fadeIn{
+  animation: slideIn ease 1s;
+-webkit-animation: slideIn ease 1s;
+-moz-animation: slideIn ease 2s;
+-o-animation: slideIn ease 1s;
+-ms-animation: slideIn ease 2s;
+}
+@keyframes slideIn {
+  from {
+    transform: translateX(-200px);
+  }
+
+  to {
+    transform: translateX(0px);
+
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+
+.header-logo {
+   font-size: 36px;
+   float: left;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-right: 40px;
+   padding-left: 40px;
+}
+
+
+.container {
+  display:grid;
+  grid-template-columns: 100% auto;
+  padding: 4px 1px;
+  font-family: "poppins", sans-serif;
+}
+
+footer {
+  background:black;
+  column-width:34%;
+}
+
+ul {
+  display:grid;
+  list-style-type:none;
+  margin:2px;padding:2px;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
+}
+ul li {
+  padding: 20px;
+  color:white;
+}
+ul li span {
+  display:block;
+  font-size:1.4em;
+  margin-bottom:1em;
+  color: #808080;
+}
+
+.container {
+  max-width: 1170px;
+  padding : 0 15px;
+  margin : auto;
+}
+
+.top-wrapper{
+  padding : 100px 0px 80px 0;
+  background-image: url(https://creativeeducator.tech4learning.com/v09/articles/images/article_foreign-language_main.jpg);
+  background-size: cover;
+  color : white;
+  text-align : center;
+  border-bottom: 2px solid #b3aeb5;
+}
+
+.top-wrapper h1{
+  font-size : 45px;
+  letter-spacing: 5px;
+}
+
+.btn-wrapper{
+  margin : 20px 0;
+}
+
+.btn{
+  padding : 12px 24px;
+  color : white;
+  display : inline-block;
+  opacity : 0.7;
+  border-radius : 6px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.lesson-wrapper{
+  height:500px;
+  padding-bottom:80px;
+  background-color:#f9fbfe;
+  text-align:center;
+}
+
+.heading{
+  padding-top:60px;
+  padding-bottom:10px;
+  color: #5f5d60;
+}
+
+.heading h1{
+  font-weight:normal;
+}
+
+.language{
+  float:left;
+  width:25%;
+}
+.language-icon{
+  position:relative;
+}
+
+.language-text {
+  width: 80%;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.message {
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 4px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.containe {
+  max-width: 1170px;
+  padding : 0 15px;
+  margin : auto;
+}
+
+.top-wrapper{
+  padding : 100px 0px 80px 0;
+  background-image: url(https://creativeeducator.tech4learning.com/v09/articles/images/article_foreign-language_main.jpg);
+  background-size: cover;
+  color : white;
+  text-align : center;
+  border-bottom: 2px solid #b3aeb5;
+}
+
+.top-wrapper h1{
+  font-size : 45px;
+  letter-spacing: 5px;
+}
+
+.btn-wrapper{
+  margin : 20px 0;
+}
+
+.btn{
+  padding : 12px 24px;
+  color : white;
+  display : inline-block;
+  opacity : 0.7;
+  border-radius : 6px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.lesson-wrapper{
+  height:500px;
+  padding-bottom:80px;
+  background-color:#f9fbfe;
+  text-align:center;
+}
+
+.heading{
+  padding-top:60px;
+  padding-bottom:10px;
+  color: #5f5d60;
+}
+
+.heading h1{
+  font-weight:normal;
+}
+
+.language{
+  float:left;
+  width:25%;
+}
+.language-icon{
+  position:relative;
+}
+
+.language-text {
+  width: 80%;
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.message {
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 4px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+
+
+body {
+  font-family: 'sans-serif';
+  margin: 0;
+  padding: 0;
+}
+main {
+  padding: 20px;
+  overflow: auto;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(21, 70, 204, 0.2);
+  background-color: rgba(233, 231, 229, 0.815);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(99, 234, 252, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.card-content {
+  box-shadow: 0 4px 8px 0 rgba(248, 162, 122, 0.2);
+  background-color: rgba(238, 227, 80, 0.233);
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.content {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 980px;
+}
+
+.container {
+  position: relative;
+  display: none;
+  object-fit: none;
+  box-shadow: 0 4px 8px 0 rgba(248, 162, 122, 0.2);
+  background-color: rgba(222, 238, 80, 0.507);
+  border-radius: 5px;
+  height: 25%;
+  padding: 5px;
+  margin-top: 20px;
+}
+
+h1 {
+   text-align: center;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+}
+
+.cont1 {
+  background-color: rgba(238, 156, 80, 0.507);
+}
+
+.cont2 {
+  background-color: rgba(106, 238, 80, 0.507);
+}
+
+.cont3 {
+  background-color: rgba(80, 233, 238, 0.507);
+}
+
+.cont4 {
+  background-color: rgba(238, 90, 80, 0.507);
+}
+
+.cont5 {
+  background-color: rgba(80, 104, 238, 0.507);
+}
+
+.cont {
+  position: relative;
+  float: left;
+  width: 20%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+  
+}
+
+#round {
+  border-radius: 50%;
+}
