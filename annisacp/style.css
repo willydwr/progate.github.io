@@ -44,6 +44,7 @@ hr{
     margin-top: -20px;
 }
 
+
 @media only screen and (max-width: 800px) {
     .jumbotron {
         background-size: cover;
@@ -51,7 +52,7 @@ hr{
     }
     
     .jumbotron .display-4{
-        margin-top: 20px;
+        margin-top: 50px;
         margin-left: 20px;
         font-size: 42px;
         font-weight: bold;
@@ -89,5 +90,9 @@ hr{
     .col-md-3 img{
         margin-left: 50px;
         margin-top: -20px;
+    }
+
+    .container .col-md-4{
+        padding-top: 20px;
     }
   }
